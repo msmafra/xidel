@@ -1,17 +1,23 @@
 Name:           xidel
 Version:        0.9.8
 Release:        1%{?dist}
-Summary:        
+Summary:        Command line tool to download and extract data from HTML/XML pages or JSON-APIs, using CSS, XPath 3.0, XQuery 3.0, JSONiq or pattern matching. It can also create new or transformed XML/HTML/JSON documents.
 
-License:        
-URL:            
-Source0:        
+License:        GPL-3.0 License
+URL:            https://github.com/msmafra/xidel/#readme
+Source0:        https://github.com/benibela/xidel/
 
 BuildRequires:  fpc
 Requires:       
 
 %description
+Benito van der Zander (benibela)'s Xidel
 
+Xidel is a command line tool to download and extract data from HTML/XML pages using CSS selectors, XPath/XQuery 3.0, as well as querying JSON files or APIs (e.g. REST) using JSONiq.
+
+There are dependency-free binaries for Windows, Linux and Mac.
+
+It is a wrapper around my Pascal Internet Tools (see repository internettools), so it supports XPath 2.0, XPath 3.0, XQuery 1.0, XQuery 3.0, JSONiq, CSS selectors and my own extensions/languages (e.g. pattern matching) and if you can compile that project, you can compile Xidel.
 
 %prep
 %autosetup
