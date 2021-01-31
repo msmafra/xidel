@@ -1,14 +1,14 @@
 Name:           xidel
 Version:        0.9.8
 Release:        1%{?dist}
-Summary:        Command line tool to download and extract data from HTML/XML pages or JSON-APIs, using CSS, XPath 3.0, XQuery 3.0, JSONiq or pattern matching. It can also create new or transformed XML/HTML/JSON documents.
+Summary:        Command line tool to download and extract data from HTML/XML pages or JSON-APIs.
 
 License:        GPL-3.0 License
-URL:            https://github.com/msmafra/xidel/#readme
+URL:            https://github.com/msmafra/xidel/
 Source0:        https://github.com/benibela/xidel/
 
 BuildRequires:  fpc
-Requires:       
+#Requires:       
 
 %description
 Benito van der Zander (benibela)'s Xidel
