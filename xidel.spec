@@ -8,7 +8,7 @@ URL:            https://github.com/msmafra/xidel/
 Source0:        https://github.com/benibela/xidel/
 
 BuildRequires:  fpc
-#Requires:       
+#Requires:
 
 %description
 Benito van der Zander (benibela)'s Xidel
@@ -24,7 +24,6 @@ It is a wrapper around my Pascal Internet Tools (see repository internettools), 
 
 
 %build
-%configure
 %make_build
 
 
@@ -41,4 +40,4 @@ rm -rf $RPM_BUILD_ROOT
 
 %changelog
 * Sun Jan 31 2021 Marcelo dos Santos Mafra <msmafra@gmail.com>
-- 
+-
